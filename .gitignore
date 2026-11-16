@@ -25,3 +25,10 @@ ml/artifacts/*
 
 # Jupyter local state
 .ipynb_checkpoints/
+.pytest_cache/
+
+# Frontend dependencies and build output
+node_modules/
+frontend/dist/
+*.tsbuildinfo
+.vite/
