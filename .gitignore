@@ -1,0 +1,27 @@
+# Python environments and bytecode
+.venv/
+__pycache__/
+*.py[cod]
+
+# Local environment configuration
+.env
+.env.*
+!.env.example
+
+# Raw data files
+data/*.csv
+
+# Generated model artifacts
+ml/artifacts/*
+!ml/artifacts/.gitkeep
+*.pkl
+*.pickle
+*.joblib
+*.model
+*.onnx
+*.pt
+*.pth
+*.h5
+
+# Jupyter local state
+.ipynb_checkpoints/
